@@ -1,0 +1,44 @@
+:root{
+    --primary: rgba(68, 88, 119, 1);
+    --secondary: rgb(146, 77, 28);
+}
+
+body {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    height: auto;
+    text-align: center;
+    background-color: var(--secondary);
+}
+
+.container {
+    border-radius: 20px;
+    border: solid;
+    border-color: var(black);
+}
+
+.container h2 {
+    background-color: var(--primary);
+    border-color: black;
+    border: solid;
+    border-radius: 20px;
+}
+
+.container p {
+    padding: 10px;
+}
+
+.quizbutton {
+    background-color: var(--primary);
+    display: inline-flex;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 20px;
+}
