@@ -20,6 +20,10 @@ body {
     border-color: var(black);
 }
 
+.time {
+    text-align: right;
+}
+
 .container h2 {
     background-color: var(--primary);
     border-color: black;
